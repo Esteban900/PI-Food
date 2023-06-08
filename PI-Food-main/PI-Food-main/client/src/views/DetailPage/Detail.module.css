@@ -1,0 +1,51 @@
+.Data{
+    padding:1vh 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image{
+    float:right;
+    border-radius:2em;
+    border:solid #03071E;
+}
+.Title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#1b5703;
+    text-shadow:-0.05em 0.05em 0em #e3f687;
+    text-align:center;
+    max-width:80vw;
+}
+.TitleDiet{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#1b5703;
+    text-shadow:-0.05em 0.05em 0em #e3f687;
+    text-align:left;
+    max-width:50vw;
+}
+.Summary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:justify;
+    color:#15290c;
+    max-width:100vw;
+}
+.Instruction{
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#15290c;
+}
+.Diets{
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#15290c;
+}
+.healthScoreValue{
+    color:#203417;
+    font-size:3em;
+    margin:0;
+    text-shadow:0 0 0;
+}
+.errorMessage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color:#DC2F02;
+}

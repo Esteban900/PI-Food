@@ -1,0 +1,147 @@
+.addRecipe {    
+    /* background-image: url('../Images/background.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vw;
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prettierForm {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-around;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px 5px 1px rgb(12, 114, 36);
+    background-color: rgb(231, 218, 218, 0.3);
+}
+
+
+.submitButton {
+    color: rgb(250, 249, 249);
+    background-color: #2e5636;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(22, 154, 35);
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    color:#102e15;
+    background-color: rgb(231, 218, 218);
+}
+
+.msg {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    flex-direction: column;
+    justify-content: center;    
+    color: #1b4b18;
+    font-style: italic;
+    font-weight: 700;    
+    text-shadow: 3px 2px 3px rgb(215, 244, 152);
+}
+
+.msgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 3px;
+    color: #026311;
+    font-style: italic;
+    font-weight: 700;    
+    text-shadow: 3px 2px 3px rgb(209, 245, 179);
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.checkSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.dietTypes {
+    display: flex;
+    flex-direction: column;    
+    color: rgb(231, 218, 218);
+    background-color: rgb(231, 218, 218, 0.3);
+    box-shadow: 3px 3px 5px 1px rgb(12, 135, 25);
+}
+
+.checks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1px;
+}
+
+.buttonX{
+    color:#0f4225;
+    background-color: rgb(254, 248, 248);
+    cursor: pointer;
+}
+.divOcc{
+    color: rgb(23, 99, 8);
+   
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(214, 237, 207);
+    display:contents;
+    flex-direction: row;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.divDiets{
+    color: rgb(4, 43, 11);
+    box-shadow: 3px 3px 5px 1px rgb(22, 154, 35);
+    font-size: 20px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  
+   
+   
+}

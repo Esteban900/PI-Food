@@ -1,0 +1,27 @@
+.link{
+    text-decoration:none;
+    color:#ffb90a;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    text-decoration:none;
+    color:#fdc537;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.Card{
+    min-height:55vh;
+    max-height:45vh;
+    margin:2vh 0;
+    background-color:#6a934f;
+    padding:2vh 1vw;
+    border-radius:1em;
+    transition:transform 0.2s;
+}
+.cardImage{
+    max-width:90%;
+    min-height:50%;
+    border-radius:2em;
+    border:solid yellow;
+}

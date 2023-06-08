@@ -1,0 +1,15 @@
+.mainContainer{
+   background-color: #10a12d;
+   display: flex;
+   flex-direction: row;
+   width: 100vw;
+   position: fixed;
+   z-index: 2;
+}
+.link{
+    text-decoration:none;
+    color:#FFBA08;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:2vh 1vw;
+    border-right:solid 1px #FFBA08;
+}
